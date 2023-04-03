@@ -1,0 +1,29 @@
+# Do not modify these lines
+__winc_id__ = '71dd124b4a6e4d268f5973db521394ee'
+__human_name__ = 'strings'
+
+# Add your code after this line
+player_1 = 'Ruud Gullit'
+player_2 = 'Marco van Basten'
+goal_0 = 32
+goal_1 = 54
+print(player_1 + str(goal_0))
+print(player_2 + str(goal_1))
+scorers = 'Ruud Gullit 32, Marco van Basten 54'
+print(f'{player_1} scored in the {goal_0}nd minute\n{player_2} scored in the {goal_1}th minute')
+report = 'Ruud Gullit scored in the 32nd minute\nMarco van Basten scored in the 54th minute'
+
+player = 'Ronald Koeman'
+first_name = 'Ronald'
+x = player.find('Koeman')
+print(x)
+print(player[7:13])
+print(len(player[7:13]))
+last_name_len = 6
+name_short = 'R. Koeman'
+chant = 'Ronald! Ronald! Ronald! Ronald! Ronald! Ronald!'
+print(len(chant))
+y = chant[46]
+z = ' '
+print(y!=z)
+good_chant = True
